@@ -1,23 +1,38 @@
-# Python
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Conda
-env/
-.conda/
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
 
-# VSCode
-.vscode/
-
-# Mac
+# macOS
 .DS_Store
 
-# Jupyter
-.ipynb_checkpoints/
+# VS Code
+.vscode/
+
+# PyTorch model files
+*.pt
+*.pth
+*.ckpt
 
 # Logs
-runs/.venv/
-.venv/
-.venv/
-.venv/
+*.log
+
+# Dataset (optional if large)
+data/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
